@@ -12,13 +12,15 @@
   
     &__name {
       font-size: 5rem;
+      font-weight: 300;
       padding-bottom: 1rem;
       margin-bottom: 1rem;
       // border-bottom: 2px solid set-text-color($primary-color);
   
       &--last {
+        font-family: Hey August;
         color: $accent-color;
-        font-weight: 700;
+        font-weight: 300;
       }
     }
   }
