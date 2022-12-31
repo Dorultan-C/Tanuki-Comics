@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.g-maps {
+  border-radius: 5px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -16,6 +20,7 @@
     rgba($primary-color, 0.7));
 
   h2 {
+      margin-top: 15vh;
       font-size: 3rem;
       margin-bottom: 1rem;
     }
@@ -29,6 +34,10 @@
       color: $accent-color;
       margin-bottom: 1rem;
     }
+
+
+
+
 }
 
 

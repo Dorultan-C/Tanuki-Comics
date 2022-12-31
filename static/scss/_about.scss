@@ -12,18 +12,19 @@
     rgba($primary-color, 0.7));
 
   h2 {
-
+    font-size: 2rem;
     margin-bottom: 2rem;
-    color: red;
+    color: $text-color;
   }
 
   p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
     
     margin-bottom: 2rem;
-    color: brown;
+    color: $text-color;
     }  
 
   .social-icons {

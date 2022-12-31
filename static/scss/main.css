@@ -22,7 +22,7 @@
 }
 .home__name--last {
   font-family: Hey August;
-  color: #4ad848;
+  color: #ecf07e;
   font-weight: 300;
 }
 
@@ -113,7 +113,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #4ad848;
+  color: #ecf07e;
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -124,7 +124,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #4ad848;
+  color: #ecf07e;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -153,15 +153,17 @@
   background: linear-gradient(to right, rgba(17, 30, 63, 0.3), rgba(17, 30, 63, 0.7));
 }
 .about h2 {
+  font-size: 2rem;
   margin-bottom: 2rem;
-  color: red;
+  color: #fff;
 }
 .about p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
   margin-bottom: 2rem;
-  color: brown;
+  color: #fff;
 }
 .about .social-icons {
   display: flex;
@@ -191,6 +193,10 @@
   flex-direction: column;
 }
 
+.g-maps {
+  border-radius: 5px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -200,6 +206,7 @@
   background: linear-gradient(to right, rgba(17, 30, 63, 0.3), rgba(17, 30, 63, 0.7));
 }
 .contact h2 {
+  margin-top: 15vh;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -208,7 +215,7 @@
   margin-bottom: 1.5rem;
 }
 .contact .f-contact {
-  color: #4ad848;
+  color: #ecf07e;
   margin-bottom: 1rem;
 }
 
@@ -287,6 +294,12 @@ body {
   line-height: 1;
 }
 
+.logo-header {
+  width: 150px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
 h1, h2, h3 {
   font-weight: 400;
 }
@@ -297,7 +310,7 @@ a {
 }
 
 .text-secondary {
-  color: #4ad848;
+  color: #ecf07e;
 }
 
 header {
@@ -320,7 +333,7 @@ main .social-icons a {
   padding: 0.4rem;
 }
 main .social-icons a:hover {
-  color: #4ad848;
+  color: #ecf07e;
   transition: all 0.5s ease-in-out;
 }
 

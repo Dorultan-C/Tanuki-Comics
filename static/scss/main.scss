@@ -2,7 +2,7 @@
 @import 'home';
 @import 'menu';
 @import 'about';
-@import 'products';
+@import 'gallery';
 @import 'contact';
 @import 'responsive';
 
@@ -13,6 +13,12 @@ body {
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+}
+
+.logo-header {
+  width: 150px;
+  border-radius: 5px;
+  opacity: 0.9;
 }
 
 h1, h2, h3 {
