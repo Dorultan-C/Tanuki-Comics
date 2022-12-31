@@ -186,39 +186,30 @@
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact {
-  height: 100%;
-  padding-top: 40vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
   background: linear-gradient(to right, rgba(17, 30, 63, 0.3), rgba(17, 30, 63, 0.7));
 }
 .contact h2 {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .contact__list {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
   font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-.contact .text-secondary {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.contact .social-icons {
-  position: initial;
-  margin-top: 1rem;
-}
-
-.contact-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0.2rem;
+.contact .f-contact {
+  color: #4ad848;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1000px) {

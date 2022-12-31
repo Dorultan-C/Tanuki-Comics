@@ -1,42 +1,82 @@
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact {
-    height: 100%;
-    padding-top: 40vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: 
-    linear-gradient(
-      to right,
-      rgba($primary-color, 0.3),
-      rgba($primary-color, 0.7));
-  
-    h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: 
+  linear-gradient(
+    to right, 
+    rgba($primary-color, 0.3),
+    rgba($primary-color, 0.7));
+
+  h2 {
       font-size: 3rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
-  
-    &__list {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 2rem;
+
+  &__list {
       font-size: 1.5rem;
+      margin-bottom: 1.5rem;
     }
+
+    .f-contact {
+      color: $accent-color;
+      margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+// .contact {
+//     height: 100%;
+//     padding-top: 40vh;
+//     overflow: hidden;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     background: 
+//     linear-gradient(
+//       to right,
+//       rgba($primary-color, 0.3),
+//       rgba($primary-color, 0.7));
+  
+//     h2 {
+//       font-size: 3rem;
+//       margin-bottom: 2rem;
+//     }
+  
+//     &__list {
+//       display: grid;
+//       grid-template-columns: 2fr;
+//       grid-gap: 2rem;
+//       font-size: 1.5rem;
+//     }
     
-    .text-secondary {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
+//     .text-secondary {
+//       text-align: center;
+//       margin-bottom: 2rem;
+//     }
   
-    .social-icons {
-     position: initial;
-     margin-top: 1rem;
-    }
-  }
+//     .social-icons {
+//      position: initial;
+//      margin-top: 1rem;
+//     }
+//   }
   
-  .contact-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.2rem;
-  }
+//   .contact-text {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 0.2rem;
+//   }
