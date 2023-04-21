@@ -1,14 +1,11 @@
-.products {
-  width: 100vw;
-  height: 100vh;
-    padding-bottom: 2rem;
-    background: 
-    linear-gradient(to right, 
-    rgba($primary-color, .3),
-    rgba($primary-color, .7));
-    background-size: cover;
-  
-    .social-icons {
+.album {
+  height: 400px;
+  width: 600px;
+  border: 5px solid red;
+  margin: 30px;
+  }
+
+   .social-icons {
       display: flex;
       flex-direction: column;
     }
@@ -19,5 +16,4 @@
       translate(-3rem, -5rem);
     } 
   
-  }
   
